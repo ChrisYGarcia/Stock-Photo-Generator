@@ -4,7 +4,7 @@ import SelectField from "material-ui/SelectField";
 import MenuItem from "material-ui/MenuItem";
 import axios from "axios";
 import ImageResults from "../image-results/ImageResults";
-import key from "../apiKey/key";
+import key from "../../config/apiKey";
 
 class Search extends Component {
   state = {
